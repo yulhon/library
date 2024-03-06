@@ -1,0 +1,360 @@
+.widht-wraper {
+
+}
+
+h1{
+    color: rgb(255, 255, 255);
+font-family: Forum;
+font-size: 40px;
+font-weight: 400;
+line-height: 50px;
+letter-spacing: 3px;
+text-align: center;
+text-transform: uppercase;
+}
+
+.nav-links-lins{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+
+header{
+display: flex;
+align-items: center;
+background:rgb(12, 12, 14) ;
+}
+
+nav{
+
+}
+
+.about{
+margin: 20px;
+}
+
+.about h2{
+color: rgb(12, 12, 14);
+font-family: Forum;
+font-size: 40px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.about p{
+    color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.about-gallary{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.favorites{
+    margin: 20px;
+}
+
+.favorites h2 {
+    color: rgb(12, 12, 14);
+font-family: Forum;
+font-size: 40px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 2px;
+text-align: center;
+text-transform: capitalize;
+}
+
+.favorites ul {
+box-sizing: border-box;
+border: 1px solid rgb(0, 0, 0);
+width: 550px;
+}
+
+.favorites h3 {
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.favorites span{
+    text-transform: uppercase;
+    display: block;
+}
+
+.favorites li{
+    color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 2px;
+text-align: left;
+text-transform: capitalize;
+}
+
+.favorites button{
+box-sizing: border-box;
+border: 1px solid rgb(12, 12, 14);
+border-radius: 2px;
+background-color: white;
+width: 75px;
+height: 30px;
+color: rgb(12, 12, 14);
+font-size: 10px;
+font-family: Inter;
+font-weight: 700;
+line-height: 12px;
+letter-spacing: 1px;
+text-align: center;
+}
+
+.button-item{
+margin-top: auto;
+}
+
+.photo-item{
+
+}
+
+.favorites div{
+display: flex;
+flex-wrap: column;
+}
+
+.coffee-shop{
+    margin: 20px 20px 40px;
+}
+
+.coffee-shop h2{
+    color: rgb(12, 12, 14);
+font-family: Forum;
+font-size: 40px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 2px;
+text-align: center;
+text-transform: capitalize;
+}
+
+.coffee-shop p{
+    color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 2px;
+text-align: center;
+}
+
+.coffee-shop h3{
+    color: rgb(187, 148, 95);
+font-family: Forum;
+font-size: 40px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 2px;
+text-transform: capitalize;
+}
+
+.coffee-tea{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: left;
+}
+
+.coffee-tea li{
+    color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 2px;
+text-align: left;
+text-transform: capitalize;
+}
+
+.coffee-tea ul{
+    display: flex;
+    width: 440px;
+    justify-content: space-between;
+}
+
+.desserts-cakes {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+text-align: right;
+}
+
+.desserts-cakes li{
+    color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 2px;
+text-transform: capitalize;
+}
+
+.desserts-cakes ul{
+    display: flex;
+    width: 460px;
+margin-left: auto;
+justify-content: flex-end;
+gap: 200px;
+}
+
+.coffee-shop div {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.contacts h2{
+    color: rgb(12, 12, 14);
+    font-family: Forum;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.contacts{
+ margin: 20px;
+}
+
+.phones{
+    color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 2px;
+text-align: center;
+text-transform: capitalize;
+margin: 0;
+margin-bottom: 40px;
+}
+
+.staff{
+    color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 2px;
+text-align: center;
+text-transform: capitalize;
+margin: 0;
+margin-top: 20px;
+}
+
+.contacts ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 60px;
+}
+
+.contacts ul li{
+    color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 2px;
+text-transform: capitalize;
+}
+
+.contacts a{
+    color: black;
+}
+
+.contacts div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+footer{
+    margin-top: 40px;
+    padding: 20px 20px 44px;
+    background-color: black;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info li{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.info ul{
+    display: flex;
+    gap: 18px;
+}
+
+.times{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.times li{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: right;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    padding-bottom: 30px;
+}
+
+.author{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.author li{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 2px;
+text-align: center;
+}
